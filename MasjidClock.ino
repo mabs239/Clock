@@ -4,6 +4,8 @@
 
 #include <LiquidCrystal.h>
 const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
+// 1    2    3   4   5   6  7   8   9   10  11  12  13  14
+// Vss  Vdd  Vo  RS  RW' E  D0  D1  D2  D3  D4  D5  D6  D7
 int day;
 int month;
 uint8_t fajar2dayMin;
